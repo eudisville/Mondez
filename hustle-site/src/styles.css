@@ -114,7 +114,7 @@ a { color: inherit; text-decoration: none; }
 .works { padding-bottom: 40px; }
 .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 34px; }
 .filters button {
-  font: inherit; background: none; color: var(--fg);
+  font: inherit; background: none; background-size: cover; background-position: center; color: var(--fg);
   border: 1px solid var(--fg); padding: 8px 12px; border-radius: 4px; cursor: pointer;
 }
 .filters button.on { background: var(--fg); color: var(--bg); }
